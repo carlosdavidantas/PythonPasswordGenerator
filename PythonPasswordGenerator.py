@@ -7,7 +7,7 @@ numbers = "0123456789"
 
 chars = [lowerAlphabet,upperCaseChars,symbols,numbers]
 
-passwordLength = 80000
+passwordLength = 16
 specialChars = int(passwordLength * 20 / 100)
 upperCharsCount = int(passwordLength * 20 / 100)
 numbersCount = int(passwordLength * 20 / 100)
